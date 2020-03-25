@@ -16,7 +16,7 @@ CREATE TABLE "public"."Course" (
     "termsOffered" text  NOT NULL DEFAULT '',
     "updatedAt" timestamp(3)  NOT NULL DEFAULT '1970-01-01 00:00:00',
     PRIMARY KEY ("id")
-) 
+)
 ```
 
 ## Changes
@@ -29,7 +29,7 @@ migration ..20200309153118-init
 @@ -1,0 +1,20 @@
 +datasource db {
 +  provider = "postgresql"
-+  url      = "postgresql://postgres:docker@localhost:5432/pg-docker?schema=public"
++  url      = "postgresql://postgres:docker@localhost:5432/bargain-docker?schema=public"
 +}
 +
 +generator client {
@@ -48,5 +48,3 @@ migration ..20200309153118-init
 +
 +}
 ```
-
-
