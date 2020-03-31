@@ -25,11 +25,11 @@
     },
     {
       "tag": "CreateModel",
-      "model": "Course"
+      "model": "Item"
     },
     {
       "tag": "CreateField",
-      "model": "Course",
+      "model": "Item",
       "field": "id",
       "type": "String",
       "arity": "Required"
@@ -39,7 +39,7 @@
       "location": {
         "path": {
           "tag": "Field",
-          "model": "Course",
+          "model": "Item",
           "field": "id"
         },
         "directive": "default"
@@ -51,7 +51,7 @@
         "tag": "Directive",
         "path": {
           "tag": "Field",
-          "model": "Course",
+          "model": "Item",
           "field": "id"
         },
         "directive": "default"
@@ -64,7 +64,7 @@
       "location": {
         "path": {
           "tag": "Field",
-          "model": "Course",
+          "model": "Item",
           "field": "id"
         },
         "directive": "id"
@@ -72,7 +72,7 @@
     },
     {
       "tag": "CreateField",
-      "model": "Course",
+      "model": "Item",
       "field": "createdAt",
       "type": "DateTime",
       "arity": "Required"
@@ -82,7 +82,7 @@
       "location": {
         "path": {
           "tag": "Field",
-          "model": "Course",
+          "model": "Item",
           "field": "createdAt"
         },
         "directive": "default"
@@ -94,7 +94,7 @@
         "tag": "Directive",
         "path": {
           "tag": "Field",
-          "model": "Course",
+          "model": "Item",
           "field": "createdAt"
         },
         "directive": "default"
@@ -104,7 +104,7 @@
     },
     {
       "tag": "CreateField",
-      "model": "Course",
+      "model": "Item",
       "field": "updatedAt",
       "type": "DateTime",
       "arity": "Required"
@@ -114,7 +114,7 @@
       "location": {
         "path": {
           "tag": "Field",
-          "model": "Course",
+          "model": "Item",
           "field": "updatedAt"
         },
         "directive": "updatedAt"
@@ -122,36 +122,57 @@
     },
     {
       "tag": "CreateField",
-      "model": "Course",
-      "field": "name",
+      "model": "Item",
+      "field": "title",
       "type": "String",
       "arity": "Required"
     },
     {
       "tag": "CreateField",
-      "model": "Course",
+      "model": "Item",
+      "field": "category",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Item",
+      "field": "condition",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Item",
       "field": "description",
       "type": "String",
       "arity": "Required"
     },
     {
       "tag": "CreateField",
-      "model": "Course",
-      "field": "defaultCredits",
+      "model": "Item",
+      "field": "price",
+      "type": "Int",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Item",
+      "field": "isFirmOnPrice",
+      "type": "Boolean",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Item",
+      "field": "location",
       "type": "String",
       "arity": "Required"
     },
     {
       "tag": "CreateField",
-      "model": "Course",
-      "field": "courseCode",
-      "type": "String",
-      "arity": "Required"
-    },
-    {
-      "tag": "CreateField",
-      "model": "Course",
-      "field": "termsOffered",
+      "model": "Item",
+      "field": "imageUrl",
       "type": "String",
       "arity": "Required"
     }
