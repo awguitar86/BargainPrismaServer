@@ -1,17 +1,20 @@
 import { objectType } from 'nexus'
 
-const Course = objectType({
-  name: 'Course',
+const Item = objectType({
+  name: 'Item',
   definition(t) {
     t.model.id()
     t.model.createdAt()
     t.model.updatedAt()
-    t.model.name()
+    t.model.title()
+    t.model.category()
+    t.model.condition()
     t.model.description()
-    t.model.defaultCredits()
-    t.model.courseCode()
-    t.model.termsOffered()
+    t.model.price()
+    t.model.isFirmOnPrice()
+    t.model.location()
+    t.model.imageUrl()
   },
 })
 
-export const Models = [Course]
+export const Models = [Item]

@@ -2,20 +2,33 @@
 ### Do not make changes to this file directly
 
 
-type Course {
-  courseCode: String!
+scalar DateTime
+
+type Item {
+  category: String!
+  condition: String!
   createdAt: DateTime!
-  defaultCredits: String!
   description: String!
   id: String!
-  name: String!
-  termsOffered: String!
+  imageUrl: String!
+  isFirmOnPrice: Boolean!
+  location: String!
+  price: Int!
+  title: String!
   updatedAt: DateTime!
 }
 
-scalar DateTime
+input ItemWhereUniqueInput {
+  id: String
+}
+
+type Mutation {
+  createItem(category: String, condition: String, description: String, imageUrl: String, isFirmOnPrice: Boolean, location: String, price: Int, title: String): Item!
+  deleteOneItem(where: ItemWhereUniqueInput!): Item
+  updateItem(category: String, condition: String, description: String, id: ID, imageUrl: String, isFirmOnPrice: Boolean, location: String, price: Int, title: String): Item!
+}
 
 type Query {
-  Course(id: ID): Course
-  Courses(searchString: String): [Course!]!
+  Item(id: ID): Item
+  Items(searchString: String): [Item!]!
 }

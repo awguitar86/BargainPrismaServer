@@ -1,27 +1,39 @@
 import { PrismaClient } from '@prisma/client'
+import fs from 'fs'
 
 const prismaClient = new PrismaClient()
 
-async function createCourse() {
-  try {
-    await prismaClient.course.create({
+const classifiedItems = fs.readFileSync('prisma/items.json')
+
+function loadItems() {
+  const items = JSON.parse(classifiedItems)
+  const allItems = items.items
+  return allItems.map(item => {
+    return {
       data: {
-        name: 'Rich Internet Applications II',
-        description:
-          'Most useful DGM course ever created.  Taught by the most brilliant yet humble professor to ever grace the hallways of UVU.',
-        defaultCredits: '3',
-        courseCode: 'DGM 4790',
-        termsOffered: 'Spring',
+        title: item.title,
+        category: item.category,
+        condition: item.condition,
+        description: item.description,
+        price: item.price,
+        location: item.location,
+        isFirmOnPrice: item.isFirmOnPrice,
+        imageUrl: item.imageUrl,
       },
-    })
-  } catch (err) {
-    console.log(err)
-  }
+    }
+  })
 }
 
 async function main() {
   try {
-    await createCourse()
+    const allItems = loadItems()
+    for (let item of allItems) {
+      await prismaClient.item
+        .create(item)
+        .catch(err =>
+          console.log(`Error trying to create UVU items: ${err} item ${item}`),
+        )
+    }
   } catch (err) {
     console.log(err)
   }

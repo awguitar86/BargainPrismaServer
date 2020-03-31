@@ -19,13 +19,17 @@ declare global {
 }
 
 export interface NexusGenInputs {
+  ItemWhereUniqueInput: { // input type
+    id?: string | null; // String
+  }
 }
 
 export interface NexusGenEnums {
 }
 
 export interface NexusGenRootTypes {
-  Course: prisma.Course;
+  Item: prisma.Item;
+  Mutation: {};
   Query: {};
   String: string;
   Int: number;
@@ -36,31 +40,66 @@ export interface NexusGenRootTypes {
 }
 
 export interface NexusGenAllTypes extends NexusGenRootTypes {
+  ItemWhereUniqueInput: NexusGenInputs['ItemWhereUniqueInput'];
 }
 
 export interface NexusGenFieldTypes {
-  Course: { // field return type
-    courseCode: string; // String!
+  Item: { // field return type
+    category: string; // String!
+    condition: string; // String!
     createdAt: any; // DateTime!
-    defaultCredits: string; // String!
     description: string; // String!
     id: string; // String!
-    name: string; // String!
-    termsOffered: string; // String!
+    imageUrl: string; // String!
+    isFirmOnPrice: boolean; // Boolean!
+    location: string; // String!
+    price: number; // Int!
+    title: string; // String!
     updatedAt: any; // DateTime!
   }
+  Mutation: { // field return type
+    createItem: NexusGenRootTypes['Item']; // Item!
+    deleteOneItem: NexusGenRootTypes['Item'] | null; // Item
+    updateItem: NexusGenRootTypes['Item']; // Item!
+  }
   Query: { // field return type
-    Course: NexusGenRootTypes['Course'] | null; // Course
-    Courses: NexusGenRootTypes['Course'][]; // [Course!]!
+    Item: NexusGenRootTypes['Item'] | null; // Item
+    Items: NexusGenRootTypes['Item'][]; // [Item!]!
   }
 }
 
 export interface NexusGenArgTypes {
+  Mutation: {
+    createItem: { // args
+      category?: string | null; // String
+      condition?: string | null; // String
+      description?: string | null; // String
+      imageUrl?: string | null; // String
+      isFirmOnPrice?: boolean | null; // Boolean
+      location?: string | null; // String
+      price?: number | null; // Int
+      title?: string | null; // String
+    }
+    deleteOneItem: { // args
+      where: NexusGenInputs['ItemWhereUniqueInput']; // ItemWhereUniqueInput!
+    }
+    updateItem: { // args
+      category?: string | null; // String
+      condition?: string | null; // String
+      description?: string | null; // String
+      id?: string | null; // ID
+      imageUrl?: string | null; // String
+      isFirmOnPrice?: boolean | null; // Boolean
+      location?: string | null; // String
+      price?: number | null; // Int
+      title?: string | null; // String
+    }
+  }
   Query: {
-    Course: { // args
+    Item: { // args
       id?: string | null; // ID
     }
-    Courses: { // args
+    Items: { // args
       searchString?: string | null; // String
     }
   }
@@ -71,9 +110,9 @@ export interface NexusGenAbstractResolveReturnTypes {
 
 export interface NexusGenInheritedFields {}
 
-export type NexusGenObjectNames = "Course" | "Query";
+export type NexusGenObjectNames = "Item" | "Mutation" | "Query";
 
-export type NexusGenInputNames = never;
+export type NexusGenInputNames = "ItemWhereUniqueInput";
 
 export type NexusGenEnumNames = never;
 

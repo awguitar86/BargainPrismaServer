@@ -1,0 +1,254 @@
+{
+  "items": [
+    {
+      "title": "Acoustic Electric Guitar",
+      "category": "Musical Instruments",
+      "condition": "Good",
+      "description": "A super nice acoustic electric guitar in good shape for sale.",
+      "price": 800,
+      "isFirmOnPrice": true,
+      "location": "American Fork, UT",
+      "imageUrl": "images/acousticGuitar.png"
+    },
+    {
+      "title": "Cello",
+      "category": "Musical Instruments",
+      "condition": "Very Good",
+      "description": "This cello is in perfect condition. It has been used, but has been taken care of very well.",
+      "price": 500,
+      "isFirmOnPrice": true,
+      "location": "Draper, UT",
+      "imageUrl": "images/cello.jpg"
+    },
+    {
+      "title": "White Couch",
+      "category": "Furniture",
+      "condition": "Very Good",
+      "description": "This couch is in perfect condition, like brand new. We ony used it for a few months, but now we have to move and can't take it with us. ",
+      "price": 1000,
+      "isFirmOnPrice": true,
+      "location": "Layton, UT",
+      "imageUrl": "images/couch.jpg"
+    },
+    {
+      "title": "Reclining Chair",
+      "category": "Furniture",
+      "condition": "Good",
+      "description": "This reclining chair is in good condition. It's been used a bit and has some worn out parts. But it's comfy and works great still!",
+      "price": 200,
+      "isFirmOnPrice": true,
+      "location": "Salt Lake City, UT",
+      "imageUrl": "images/chair.jpg"
+    },
+    {
+      "title": "Brown Dresser",
+      "category": "Furniture",
+      "condition": "Good",
+      "description": "Really nice brown dresser in good condition. Everything works great on it.",
+      "price": 400,
+      "isFirmOnPrice": true,
+      "location": "Kaysville, UT",
+      "imageUrl": "images/dresser.jpg"
+    },
+    {
+      "title": "Dryer",
+      "category": "Appliances",
+      "condition": "Good",
+      "description": "This dryer is in good condition and works really well. We've only had it for about a year.",
+      "price": 350,
+      "isFirmOnPrice": true,
+      "location": "Bountiful, UT",
+      "imageUrl": "images/dryer.jpg"
+    },
+    {
+      "title": "Electric Guitar",
+      "category": "Musical Instruments",
+      "condition": "Used",
+      "description": "This guitar is a great guitar and still in good conditon. It's been used a lot, but it plays really well still.",
+      "price": 600,
+      "isFirmOnPrice": true,
+      "location": "South Jordan, UT",
+      "imageUrl": "images/electricGuitar.jpg"
+    },
+    {
+      "title": "Apple iPad Pro",
+      "category": "Electronics",
+      "condition": "Very Good",
+      "description": "Brand new iPad Pro in perfect condition. I won it at a drawing and I already have one and don't need it. ",
+      "price": 1000,
+      "isFirmOnPrice": true,
+      "location": "Lehi, UT",
+      "imageUrl": "images/ipad.jpg"
+    },
+    {
+      "title": "Apple Macbook Pro 2018 with Touchbar",
+      "category": "Computers",
+      "condition": "Very Good",
+      "description": "Macbook Pro in great condition. Only used it for about a year before I got the new one that came out. Works fantastic!",
+      "price": 2000,
+      "isFirmOnPrice": true,
+      "location": "Pleasant Grove, UT",
+      "imageUrl": "images/macbookPro.jpg"
+    },
+    {
+      "title": "Black Grand Piano",
+      "category": "Musical Instruments",
+      "condition": "Very Good",
+      "description": "Beautiful black grand piano that plays perfectly. We are moving and can't take it with us. This piano will fill your house with the best sounding piano music ever!",
+      "price": 5000,
+      "isFirmOnPrice": true,
+      "location": "Alpine, UT",
+      "imageUrl": "images/piano.jpg"
+    },
+    {
+      "title": "Burton Snowboard",
+      "category": "Snowboard Equipment",
+      "condition": "Good",
+      "description": "Burton snowboard in good condition. Only used it one season.",
+      "price": 500,
+      "isFirmOnPrice": true,
+      "location": "Orem, UT",
+      "imageUrl": "images/snowboard.jpg"
+    },
+    {
+      "title": "Dining Table",
+      "category": "Furniture",
+      "condition": "Good",
+      "description": "Dining table in good condition. It has some small scratches but is you can't see them unless you look real hard.",
+      "price": 800,
+      "isFirmOnPrice": true,
+      "location": "Lindon, UT",
+      "imageUrl": "images/diningTable.jpg"
+    },
+    {
+      "title": "Samsung 72 inch smart TV",
+      "category": "TVs",
+      "condition": "Good",
+      "description": "Samsung 72 inch Smart TV in perfect condition. Only 2 years old, and works really good.",
+      "price": 700,
+      "isFirmOnPrice": true,
+      "location": "American Fork, UT",
+      "imageUrl": "images/tv.jpg"
+    },
+    {
+      "title": "LG Washer",
+      "category": "Appliances",
+      "condition": "Very Good",
+      "description": "Almost brand new LG Wahser in great condition. Works really well and cleans your clothes very well.",
+      "price": 650,
+      "isFirmOnPrice": true,
+      "location": "Bluffdale, UT",
+      "imageUrl": "images/washer.jpg"
+    },
+    {
+      "title": "Pro BMX Bike",
+      "category": "BMX Bikes",
+      "condition": "Good",
+      "description": "Pro bmx bike in good conditon. Fun to ride, super light, small sprocket.",
+      "price": 300,
+      "isFirmOnPrice": true,
+      "location": "Lehi, UT",
+      "imageUrl": "images/bmx.jpg"
+    },
+    {
+      "title": "2019 Yeti SB150",
+      "category": "Mountain Bikes",
+      "condition": "Very Good",
+      "description": "Brand new 2019 Yeti SB150 in amazing condition.",
+      "price": 5500,
+      "isFirmOnPrice": false,
+      "location": "Salt Lake City, UT",
+      "imageUrl": "images/mtnBike.jpg"
+    },
+    {
+      "title": "Crib",
+      "category": "Cribs and Playpens",
+      "condition": "Used",
+      "description": "Really nice brown crib for sale. Does have some chew marks, but can be touched up.",
+      "price": 100,
+      "isFirmOnPrice": true,
+      "location": "Sandy, UT",
+      "imageUrl": "images/crib.jpg"
+    },
+    {
+      "title": "Stroller",
+      "category": "Strollers",
+      "condition": "Good",
+      "description": "Jogging stroller in good condtion. Used only a little bit. Great for long walks.",
+      "price": 150,
+      "isFirmOnPrice": true,
+      "location": "Pleasant Grove, UT",
+      "imageUrl": "images/stroller.jpg"
+    },
+    {
+      "title": "Bear Cruzer G2",
+      "category": "Archery Equipment",
+      "condition": "Good",
+      "description": "Bear Cruzer G2 right handed in great condition and shoots really good. I'm looking to get a new bow this year.",
+      "price": 250,
+      "isFirmOnPrice": true,
+      "location": "Midway, UT",
+      "imageUrl": "images/bow.jpg"
+    },
+    {
+      "title": "Centurion 24 Electric Lock Safe",
+      "category": "Gun Safes and Gun Racks",
+      "condition": "Very Good",
+      "description": "Toplit Electronic Lock upgrade. Door panel upgrade. 30 min fire rating at 1200 degrees. In great condition.",
+      "price": 799,
+      "isFirmOnPrice": true,
+      "location": "North Salt Lake, UT",
+      "imageUrl": "images/safe.jpg"
+    },
+    {
+      "title": "2020 Honda CRF250F",
+      "category": "Dirt Bikes",
+      "condition": "Like New",
+      "description": "Like New Honda CRF250F dirt bike. I've only rode it a few times, but I a moving and am not able tot bring it with me.",
+      "price": 4500,
+      "isFirmOnPrice": true,
+      "location": "Orem, UT",
+      "imageUrl": "images/dirtBike.jpg"
+    },
+    {
+      "title": "2019 KTM 350 EXC-F",
+      "category": "Dirt Bikes",
+      "condition": "Very Good",
+      "description": "Really nice KTM dirt bike in really good condition. This is has been an excellent dirt bike for me.",
+      "price": 10000,
+      "isFirmOnPrice": true,
+      "location": "Draper, UT",
+      "imageUrl": "images/ktm.jpg"
+    },
+    {
+      "title": "Old Town Guide Canoe",
+      "category": "Canoes",
+      "condition": "Good",
+      "description": "This has been sich a good canoe for my family. This model is great because it's slightly wider and extra stable.",
+      "price": 375,
+      "isFirmOnPrice": true,
+      "location": "Ogden, UT",
+      "imageUrl": "images/canoe.jpg"
+    },
+    {
+      "title": "Lifetime Triton Kayak",
+      "category": "Kayaks",
+      "condition": "Very Good",
+      "description": "This Kayak is in great condition and works really well. I've only taken out in the water a couple times.",
+      "price": 175,
+      "isFirmOnPrice": true,
+      "location": "Murray, UT",
+      "imageUrl": "images/kayak.jpg"
+    },
+    {
+      "title": "Little Giant Ladder",
+      "category": "Ladders",
+      "condition": "Very Good",
+      "description": "Selling this great sturdy ladder that has a lot of adjustments. Supports up to 300lbs.",
+      "price": 250,
+      "isFirmOnPrice": true,
+      "location": "Park City, UT",
+      "imageUrl": "images/ladder.jpg"
+    }
+  ]
+}
