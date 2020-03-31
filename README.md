@@ -37,3 +37,59 @@ npm run dev
 ```
 npm start
 ```
+
+## #3
+
+After you have ran all the needed commands to get the docker container created and the GraphQL Prisma server started, head on over to a browser and go to localhost:4000
+
+Once you are there you can run this query to get all of the data:
+
+```
+query {
+  Items {
+    id
+    title
+    category
+    condition
+    description
+    price
+    isFirmOnPrice
+    location
+    imageUrl
+  }
+}
+```
+
+Run this query to get all data in a certain category:
+
+```
+query {
+  ItemsByCategory(category: "Musical Instruments"){
+    id
+    title
+    category
+    condition
+    description
+    price
+    isFirmOnPrice
+    location
+    imageUrl
+  }
+}
+```
+
+Run this query to get one item by id:
+
+```
+  Item(id: "<insert ID>"){
+    id
+    title
+    category
+    condition
+    description
+    price
+    isFirmOnPrice
+    location
+    imageUrl
+  }
+```
