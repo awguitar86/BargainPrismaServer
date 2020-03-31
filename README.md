@@ -127,7 +127,7 @@ mutation {
 
 ### Update
 
-To update an item run this mutation making sure you grab an id of an item from runnng a query beforehand. Update whetever field you'd like.
+To update an item run this mutation making sure you grab an id of an item from runnng a query beforehand. Update whatever fields you'd like. You can update multiple fields. Make sure to replace FIELD with a correct field and INSERT VALUE with correct value.
 
 ```
 mutation {
