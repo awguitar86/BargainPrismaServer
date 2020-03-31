@@ -132,14 +132,7 @@ To update an item run this mutation making sure you grab an id of an item from r
 ```
 mutation {
   updateItem(
-    title: ""
-    category: ""
-    condition: ""
-    description: ""
-    price: 0
-    isFirmOnPrice: false
-    location: ""
-    imageUrl: ""
+    FIELD: "<INSERT VALUE>"
   ){
     id
     title
