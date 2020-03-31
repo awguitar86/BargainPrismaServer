@@ -88,7 +88,7 @@
       "price": 2000,
       "isFirmOnPrice": true,
       "location": "Pleasant Grove, UT",
-      "imageUrl": "images/macbookPro.jpg"
+      "imageUrl": "images/macbook.jpg"
     },
     {
       "title": "Black Grand Piano",
@@ -131,10 +131,10 @@
       "imageUrl": "images/tv.jpg"
     },
     {
-      "title": "LG Washer",
+      "title": "Samsung Washer",
       "category": "Appliances",
       "condition": "Very Good",
-      "description": "Almost brand new LG Wahser in great condition. Works really well and cleans your clothes very well.",
+      "description": "Almost brand new Samsung Wahser in great condition. Works really well and cleans your clothes very well.",
       "price": 650,
       "isFirmOnPrice": true,
       "location": "Bluffdale, UT",
