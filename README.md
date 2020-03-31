@@ -149,7 +149,7 @@ mutation {
 
 ### Delete
 
-To delete an item run this mutation. It uses the id of the item that you want to delete. Make sure to put an id of an item inside the the quotes where <INSERT ID> is. 
+To delete an item run this mutation. It uses the id of the item that you want to delete. Make sure to put an id of an item inside the the quotes where INSERT ID is. 
 
 ```
 mutation {
