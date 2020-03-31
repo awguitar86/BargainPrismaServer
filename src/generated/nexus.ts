@@ -65,6 +65,7 @@ export interface NexusGenFieldTypes {
   Query: { // field return type
     Item: NexusGenRootTypes['Item'] | null; // Item
     Items: NexusGenRootTypes['Item'][]; // [Item!]!
+    ItemsByCategory: NexusGenRootTypes['Item'][]; // [Item!]!
   }
 }
 
@@ -101,6 +102,9 @@ export interface NexusGenArgTypes {
     }
     Items: { // args
       searchString?: string | null; // String
+    }
+    ItemsByCategory: { // args
+      category?: string | null; // String
     }
   }
 }

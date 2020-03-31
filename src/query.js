@@ -31,5 +31,21 @@ export const Query = queryType({
         })
       },
     })
+
+    t.list.field('ItemsByCategory', {
+      type: 'Item',
+      args: {
+        category: stringArg(),
+      },
+      resolve: (parent, { category }, ctx) => {
+        return ctx.prisma.item.findMany({
+          where: {
+            OR: {
+              category: { contains: category },
+            },
+          },
+        })
+      },
+    })
   },
 })

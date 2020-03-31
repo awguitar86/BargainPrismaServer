@@ -31,4 +31,5 @@ type Mutation {
 type Query {
   Item(id: ID): Item
   Items(searchString: String): [Item!]!
+  ItemsByCategory(category: String): [Item!]!
 }
