@@ -4,9 +4,10 @@ This is a GraphQL Prisma Server that runs in Docker with a postgreSQL database. 
 
 ## Dependencies
 
-After cloning the repo, make sure to install all dependencies
+After cloning the repo, cd into BargainPrismaServer and install all dependencies
 
 ```
+cd BargainPrismaServer
 npm install
 ```
 
@@ -23,29 +24,27 @@ npm run createDB
 ```
 
 ```
-npm run postinstall
-```
-
-```
 npm run seed
-```
-
-```
-npm run dev
 ```
 
 ```
 npm start
 ```
 
-## Queries
+Then head on over to a browser and go to http://localhost:4000. You will then be in the playground where you can run the Queries and Mutation in the next sections.
 
-After you have ran all the needed commands to get the docker container created and the GraphQL Prisma server started, head on over to a browser and go to localhost:4000
+If you want to see the docker database, run this command
+
+```
+npm run dev
+```
+
+## Queries
 
 Once you are there you can run this query to get all of the data:
 
-```
-query {
+```graphql
+query getAllItems {
   Items {
     id
     title
@@ -62,9 +61,9 @@ query {
 
 Run this query to get all data in a certain category:
 
-```
-query {
-  ItemsByCategory(category: "Musical Instruments"){
+```graphql
+query getItemsByCategory {
+  ItemsByCategory(category: "Musical Instruments") {
     id
     title
     category
@@ -80,8 +79,9 @@ query {
 
 Run this query to get one item by id:
 
-```
-  Item(id: "<INSERT ID>"){
+```graphql
+query getItemById {
+  Item(id: "<INSERT ID>") {
     id
     title
     category
@@ -92,6 +92,7 @@ Run this query to get one item by id:
     location
     imageUrl
   }
+}
 ```
 
 ## Mutations
@@ -100,8 +101,8 @@ Run this query to get one item by id:
 
 To create a new item run this mutation and put what you want in the empty strings:
 
-```
-mutation {
+```graphql
+mutation createNewItem {
   createItem(
     title: ""
     category: ""
@@ -111,7 +112,7 @@ mutation {
     isFirmOnPrice: false
     location: ""
     imageUrl: ""
-  ){
+  ) {
     id
     title
     category
@@ -129,9 +130,10 @@ mutation {
 
 To update an item run this mutation making sure you grab an id of an item from runnng a query beforehand. Update whatever fields you'd like. You can update multiple fields. Make sure to replace FIELD with a correct field and INSERT VALUE with correct value.
 
-```
-mutation {
+```graphql
+mutation updateSingleItem {
   updateItem(
+    id: "<INSERT ID>"
     <FIELD>: "<INSERT VALUE>"
   ){
     id
@@ -149,11 +151,11 @@ mutation {
 
 ### Delete
 
-To delete an item run this mutation. It uses the id of the item that you want to delete. Make sure to put an id of an item inside the the quotes where INSERT ID is. 
+To delete an item run this mutation. It uses the id of the item that you want to delete. Make sure to put an id of an item inside the the quotes where INSERT ID is.
 
-```
-mutation {
-  deleteOneItem(where: {id: "<INSERT ID>"}){
+```graphql
+mutation deleteItem {
+  deleteOneItem(where: { id: "<INSERT ID>" }) {
     id
     title
   }
