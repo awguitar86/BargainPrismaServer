@@ -33,7 +33,7 @@ npm start
 
 Then head on over to a browser and go to http://localhost:4000. You will then be in the playground where you can run the Queries and Mutation in the next sections.
 
-If you want to see the docker database, run this command
+If you want to see the items in the docker database, run this command
 
 ```
 npm run dev
