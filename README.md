@@ -132,6 +132,7 @@ To update an item run this mutation making sure you grab an id of an item from r
 ```
 mutation {
   updateItem(
+    id: "<INSERT ID>"
     <FIELD>: "<INSERT VALUE>"
   ){
     id
