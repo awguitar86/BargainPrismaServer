@@ -16,6 +16,8 @@ export const Mutation = mutationType({
         isFirmOnPrice: booleanArg(),
         location: stringArg(),
         imageUrl: stringArg(),
+        sellerName: stringArg(),
+        sellerName: stringArg(),
       },
       resolve: (
         parent,
@@ -28,6 +30,8 @@ export const Mutation = mutationType({
           isFirmOnPrice,
           location,
           imageUrl,
+          sellerName,
+          sellerPhone,
         },
         ctx,
       ) => {
@@ -41,6 +45,8 @@ export const Mutation = mutationType({
             isFirmOnPrice,
             location,
             imageUrl,
+            sellerName,
+            sellerPhone,
           },
         })
       },
@@ -58,6 +64,8 @@ export const Mutation = mutationType({
         isFirmOnPrice: booleanArg(),
         location: stringArg(),
         imageUrl: stringArg(),
+        sellerName: stringArg(),
+        sellerName: stringArg(),
       },
       resolve: (
         parent,
@@ -71,6 +79,8 @@ export const Mutation = mutationType({
           isFirmOnPrice,
           location,
           imageUrl,
+          sellerName,
+          sellerPhone,
         },
         ctx,
       ) => {
@@ -87,6 +97,8 @@ export const Mutation = mutationType({
             isFirmOnPrice,
             location,
             imageUrl,
+            sellerName,
+            sellerPhone,
           },
         })
       },

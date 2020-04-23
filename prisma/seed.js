@@ -8,7 +8,7 @@ const classifiedItems = fs.readFileSync('prisma/items.json')
 function loadItems() {
   const items = JSON.parse(classifiedItems)
   const allItems = items.items
-  return allItems.map(item => {
+  return allItems.map((item) => {
     return {
       data: {
         title: item.title,
@@ -19,6 +19,8 @@ function loadItems() {
         location: item.location,
         isFirmOnPrice: item.isFirmOnPrice,
         imageUrl: item.imageUrl,
+        sellerName: item.sellerName,
+        sellerPhone: item.sellerPhone,
       },
     }
   })
@@ -30,7 +32,7 @@ async function main() {
     for (let item of allItems) {
       await prismaClient.item
         .create(item)
-        .catch(err =>
+        .catch((err) =>
           console.log(`Error trying to create UVU items: ${err} item ${item}`),
         )
     }
@@ -40,7 +42,7 @@ async function main() {
 }
 
 main()
-  .catch(e => console.log(e))
+  .catch((e) => console.log(e))
   .finally(async () => {
     await prismaClient.disconnect()
   })

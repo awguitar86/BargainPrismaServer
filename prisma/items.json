@@ -8,7 +8,9 @@
       "price": 800,
       "isFirmOnPrice": true,
       "location": "American Fork, UT",
-      "imageUrl": "images/acousticGuitar.jpg"
+      "imageUrl": "images/acousticGuitar.jpg",
+      "sellerName": "James Jameson",
+      "sellerPhone": "801-555-1234"
     },
     {
       "title": "Cello",
@@ -18,7 +20,9 @@
       "price": 500,
       "isFirmOnPrice": true,
       "location": "Draper, UT",
-      "imageUrl": "images/cello.jpg"
+      "imageUrl": "images/cello.jpg",
+      "sellerName": "Tim Burns",
+      "sellerPhone": "801-555-0987"
     },
     {
       "title": "White Couch",
@@ -28,7 +32,9 @@
       "price": 1000,
       "isFirmOnPrice": true,
       "location": "Layton, UT",
-      "imageUrl": "images/couch.jpg"
+      "imageUrl": "images/couch.jpg",
+      "sellerName": "Greg Barnes",
+      "sellerPhone": "801-555-1029"
     },
     {
       "title": "Reclining Chair",
@@ -38,7 +44,9 @@
       "price": 200,
       "isFirmOnPrice": true,
       "location": "Salt Lake City, UT",
-      "imageUrl": "images/chair.jpg"
+      "imageUrl": "images/chair.jpg",
+      "sellerName": "Terri Walters",
+      "sellerPhone": "801-555-9988"
     },
     {
       "title": "Brown Dresser",
@@ -48,7 +56,9 @@
       "price": 400,
       "isFirmOnPrice": true,
       "location": "Kaysville, UT",
-      "imageUrl": "images/dresser.jpg"
+      "imageUrl": "images/dresser.jpg",
+      "sellerName": "Kim Potter",
+      "sellerPhone": "801-555-1122"
     },
     {
       "title": "Dryer",
@@ -58,7 +68,9 @@
       "price": 350,
       "isFirmOnPrice": true,
       "location": "Bountiful, UT",
-      "imageUrl": "images/dryer.jpg"
+      "imageUrl": "images/dryer.jpg",
+      "sellerName": "Randy Warren",
+      "sellerPhone": "801-555-4433"
     },
     {
       "title": "Electric Guitar",
@@ -68,7 +80,9 @@
       "price": 600,
       "isFirmOnPrice": true,
       "location": "South Jordan, UT",
-      "imageUrl": "images/electricGuitar.jpg"
+      "imageUrl": "images/electricGuitar.jpg",
+      "sellerName": "Frank Fredrickson",
+      "sellerPhone": "801-555-5432"
     },
     {
       "title": "Apple iPad Pro",
@@ -78,7 +92,9 @@
       "price": 1000,
       "isFirmOnPrice": true,
       "location": "Lehi, UT",
-      "imageUrl": "images/ipad.jpg"
+      "imageUrl": "images/ipad.jpg",
+      "sellerName": "Dan Dithers",
+      "sellerPhone": "801-555-6543"
     },
     {
       "title": "Apple Macbook Pro 2018 with Touchbar",
@@ -88,7 +104,9 @@
       "price": 2000,
       "isFirmOnPrice": true,
       "location": "Pleasant Grove, UT",
-      "imageUrl": "images/macbook.jpg"
+      "imageUrl": "images/macbook.jpg",
+      "sellerName": "Nancy Drew",
+      "sellerPhone": "801-555-7654"
     },
     {
       "title": "Black Grand Piano",
@@ -98,7 +116,9 @@
       "price": 5000,
       "isFirmOnPrice": true,
       "location": "Alpine, UT",
-      "imageUrl": "images/piano.jpg"
+      "imageUrl": "images/piano.jpg",
+      "sellerName": "Thomas Thorp",
+      "sellerPhone": "801-555-8765"
     },
     {
       "title": "Burton Snowboard",
@@ -108,7 +128,9 @@
       "price": 500,
       "isFirmOnPrice": true,
       "location": "Orem, UT",
-      "imageUrl": "images/snowboard.jpg"
+      "imageUrl": "images/snowboard.jpg",
+      "sellerName": "Will Williamson",
+      "sellerPhone": "801-555-9876"
     },
     {
       "title": "Dining Table",
@@ -118,7 +140,9 @@
       "price": 800,
       "isFirmOnPrice": true,
       "location": "Lindon, UT",
-      "imageUrl": "images/diningTable.jpg"
+      "imageUrl": "images/diningTable.jpg",
+      "sellerName": "Quinn Shmidt",
+      "sellerPhone": "801-555-2345"
     },
     {
       "title": "Samsung 72 inch smart TV",
@@ -128,7 +152,9 @@
       "price": 700,
       "isFirmOnPrice": true,
       "location": "American Fork, UT",
-      "imageUrl": "images/tv.jpg"
+      "imageUrl": "images/tv.jpg",
+      "sellerName": "Kirk James",
+      "sellerPhone": "801-555-7777"
     },
     {
       "title": "Samsung Washer",
@@ -138,7 +164,9 @@
       "price": 650,
       "isFirmOnPrice": true,
       "location": "Bluffdale, UT",
-      "imageUrl": "images/washer.jpg"
+      "imageUrl": "images/washer.jpg",
+      "sellerName": "Marry Burton",
+      "sellerPhone": "801-555-4567"
     },
     {
       "title": "Pro BMX Bike",
@@ -148,7 +176,9 @@
       "price": 300,
       "isFirmOnPrice": true,
       "location": "Lehi, UT",
-      "imageUrl": "images/bmx.jpg"
+      "imageUrl": "images/bmx.jpg",
+      "sellerName": "Harry Henderson",
+      "sellerPhone": "801-555-5678"
     },
     {
       "title": "2019 Yeti SB150",
@@ -158,7 +188,9 @@
       "price": 5500,
       "isFirmOnPrice": false,
       "location": "Salt Lake City, UT",
-      "imageUrl": "images/mtnBike.jpg"
+      "imageUrl": "images/mtnBike.jpg",
+      "sellerName": "Jay Daniels",
+      "sellerPhone": "801-555-5470"
     },
     {
       "title": "Crib",
@@ -168,7 +200,9 @@
       "price": 100,
       "isFirmOnPrice": true,
       "location": "Sandy, UT",
-      "imageUrl": "images/crib.jpg"
+      "imageUrl": "images/crib.jpg",
+      "sellerName": "Tony Stark",
+      "sellerPhone": "801-555-5555"
     },
     {
       "title": "Stroller",
@@ -178,7 +212,9 @@
       "price": 150,
       "isFirmOnPrice": true,
       "location": "Pleasant Grove, UT",
-      "imageUrl": "images/stroller.jpg"
+      "imageUrl": "images/stroller.jpg",
+      "sellerName": "Carry Rhodes",
+      "sellerPhone": "801-555-2233"
     },
     {
       "title": "Bear Cruzer G2",
@@ -188,7 +224,9 @@
       "price": 250,
       "isFirmOnPrice": true,
       "location": "Midway, UT",
-      "imageUrl": "images/bow.jpg"
+      "imageUrl": "images/bow.jpg",
+      "sellerName": "Samantha Smith",
+      "sellerPhone": "801-555-1144"
     },
     {
       "title": "Centurion 24 Electric Lock Safe",
@@ -198,7 +236,9 @@
       "price": 799,
       "isFirmOnPrice": true,
       "location": "North Salt Lake, UT",
-      "imageUrl": "images/safe.jpg"
+      "imageUrl": "images/safe.jpg",
+      "sellerName": "Bryan Jepson",
+      "sellerPhone": "801-555-2277"
     },
     {
       "title": "2020 Honda CRF250F",
@@ -208,7 +248,9 @@
       "price": 4500,
       "isFirmOnPrice": true,
       "location": "Orem, UT",
-      "imageUrl": "images/dirtBike.jpg"
+      "imageUrl": "images/dirtBike.jpg",
+      "sellerName": "Jeff Daniels",
+      "sellerPhone": "801-555-3399"
     },
     {
       "title": "2019 KTM 350 EXC-F",
@@ -218,7 +260,9 @@
       "price": 10000,
       "isFirmOnPrice": true,
       "location": "Draper, UT",
-      "imageUrl": "images/ktm.jpg"
+      "imageUrl": "images/ktm.jpg",
+      "sellerName": "Oliver Twist",
+      "sellerPhone": "801-555-7080"
     },
     {
       "title": "Old Town Guide Canoe",
@@ -228,7 +272,9 @@
       "price": 375,
       "isFirmOnPrice": true,
       "location": "Ogden, UT",
-      "imageUrl": "images/canoe.jpg"
+      "imageUrl": "images/canoe.jpg",
+      "sellerName": "Becky Herrin",
+      "sellerPhone": "801-555-7465"
     },
     {
       "title": "Lifetime Triton Kayak",
@@ -238,7 +284,9 @@
       "price": 175,
       "isFirmOnPrice": true,
       "location": "Murray, UT",
-      "imageUrl": "images/kayak.jpg"
+      "imageUrl": "images/kayak.jpg",
+      "sellerName": "Keith Govich",
+      "sellerPhone": "801-555-7153"
     },
     {
       "title": "Little Giant Ladder",
@@ -248,7 +296,9 @@
       "price": 250,
       "isFirmOnPrice": true,
       "location": "Park City, UT",
-      "imageUrl": "images/ladder.jpg"
+      "imageUrl": "images/ladder.jpg",
+      "sellerName": "Ada Anderson",
+      "sellerPhone": "801-555-6679"
     }
   ]
 }

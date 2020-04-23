@@ -14,6 +14,8 @@ const Item = objectType({
     t.model.isFirmOnPrice()
     t.model.location()
     t.model.imageUrl()
+    t.model.sellerName()
+    t.model.sellerPhone()
   },
 })
 
