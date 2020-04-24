@@ -54,6 +54,8 @@ export interface NexusGenFieldTypes {
     isFirmOnPrice: boolean; // Boolean!
     location: string; // String!
     price: number; // Int!
+    sellerName: string; // String!
+    sellerPhone: string; // String!
     title: string; // String!
     updatedAt: any; // DateTime!
   }
@@ -79,6 +81,8 @@ export interface NexusGenArgTypes {
       isFirmOnPrice?: boolean | null; // Boolean
       location?: string | null; // String
       price?: number | null; // Int
+      sellerName?: string | null; // String
+      sellerPhone?: string | null; // String
       title?: string | null; // String
     }
     deleteOneItem: { // args
@@ -93,6 +97,8 @@ export interface NexusGenArgTypes {
       isFirmOnPrice?: boolean | null; // Boolean
       location?: string | null; // String
       price?: number | null; // Int
+      sellerName?: string | null; // String
+      sellerPhone?: string | null; // String
       title?: string | null; // String
     }
   }

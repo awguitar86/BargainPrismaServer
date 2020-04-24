@@ -17,7 +17,7 @@ export const Mutation = mutationType({
         location: stringArg(),
         imageUrl: stringArg(),
         sellerName: stringArg(),
-        sellerName: stringArg(),
+        sellerPhone: stringArg(),
       },
       resolve: (
         parent,
@@ -65,7 +65,7 @@ export const Mutation = mutationType({
         location: stringArg(),
         imageUrl: stringArg(),
         sellerName: stringArg(),
-        sellerName: stringArg(),
+        sellerPhone: stringArg(),
       },
       resolve: (
         parent,

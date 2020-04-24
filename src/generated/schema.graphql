@@ -14,6 +14,8 @@ type Item {
   isFirmOnPrice: Boolean!
   location: String!
   price: Int!
+  sellerName: String!
+  sellerPhone: String!
   title: String!
   updatedAt: DateTime!
 }
@@ -23,9 +25,9 @@ input ItemWhereUniqueInput {
 }
 
 type Mutation {
-  createItem(category: String, condition: String, description: String, imageUrl: String, isFirmOnPrice: Boolean, location: String, price: Int, title: String): Item!
+  createItem(category: String, condition: String, description: String, imageUrl: String, isFirmOnPrice: Boolean, location: String, price: Int, sellerName: String, sellerPhone: String, title: String): Item!
   deleteOneItem(where: ItemWhereUniqueInput!): Item
-  updateItem(category: String, condition: String, description: String, id: ID, imageUrl: String, isFirmOnPrice: Boolean, location: String, price: Int, title: String): Item!
+  updateItem(category: String, condition: String, description: String, id: ID, imageUrl: String, isFirmOnPrice: Boolean, location: String, price: Int, sellerName: String, sellerPhone: String, title: String): Item!
 }
 
 type Query {

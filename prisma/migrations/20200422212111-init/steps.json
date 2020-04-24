@@ -175,6 +175,20 @@
       "field": "imageUrl",
       "type": "String",
       "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Item",
+      "field": "sellerName",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Item",
+      "field": "sellerPhone",
+      "type": "String",
+      "arity": "Required"
     }
   ]
 }
