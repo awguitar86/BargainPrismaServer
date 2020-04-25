@@ -17,7 +17,6 @@ function loadItems() {
         description: item.description,
         price: item.price,
         location: item.location,
-        isFirmOnPrice: item.isFirmOnPrice,
         imageUrl: item.imageUrl,
         sellerName: item.sellerName,
         sellerPhone: item.sellerPhone,

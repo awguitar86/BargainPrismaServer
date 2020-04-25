@@ -11,7 +11,6 @@ const Item = objectType({
     t.model.condition()
     t.model.description()
     t.model.price()
-    t.model.isFirmOnPrice()
     t.model.location()
     t.model.imageUrl()
     t.model.sellerName()
