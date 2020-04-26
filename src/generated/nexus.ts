@@ -51,7 +51,6 @@ export interface NexusGenFieldTypes {
     description: string; // String!
     id: string; // String!
     imageUrl: string; // String!
-    isFirmOnPrice: boolean; // Boolean!
     location: string; // String!
     price: number; // Int!
     sellerName: string; // String!
@@ -78,7 +77,6 @@ export interface NexusGenArgTypes {
       condition?: string | null; // String
       description?: string | null; // String
       imageUrl?: string | null; // String
-      isFirmOnPrice?: boolean | null; // Boolean
       location?: string | null; // String
       price?: number | null; // Int
       sellerName?: string | null; // String
@@ -94,7 +92,6 @@ export interface NexusGenArgTypes {
       description?: string | null; // String
       id?: string | null; // ID
       imageUrl?: string | null; // String
-      isFirmOnPrice?: boolean | null; // Boolean
       location?: string | null; // String
       price?: number | null; // Int
       sellerName?: string | null; // String

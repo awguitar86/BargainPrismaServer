@@ -158,13 +158,6 @@
     {
       "tag": "CreateField",
       "model": "Item",
-      "field": "isFirmOnPrice",
-      "type": "Boolean",
-      "arity": "Required"
-    },
-    {
-      "tag": "CreateField",
-      "model": "Item",
       "field": "location",
       "type": "String",
       "arity": "Required"
